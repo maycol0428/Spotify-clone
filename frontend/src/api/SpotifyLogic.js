@@ -10,7 +10,7 @@ const scopes = [
   "user-library-read",
 ];
 const SPOTIFY_BASE_URL = "https://accounts.spotify.com/authorize";
-const SPOTIFY_REDIRECT_URL = "http://localhost:3000/";
+const SPOTIFY_REDIRECT_URL = "/";
 export const SPOTIFY_CLIENT_ID = "6185fd56fb0c47fcb3da5ed934519153";
 export const SPOTIFY_FULL_URL = `${SPOTIFY_BASE_URL}?client_id=${SPOTIFY_CLIENT_ID}&response_type=token&redirect_uri=${SPOTIFY_REDIRECT_URL}&scope=${scopes.join(
   "%20"
