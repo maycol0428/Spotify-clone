@@ -9,7 +9,7 @@ const scopes = [
   "user-read-email",
   "user-library-read",
 ];
-const web = window.location.href;
+const web = "https://spotify-clone-mcem.herokuapp.com/";
 const SPOTIFY_BASE_URL = "https://accounts.spotify.com/authorize";
 const SPOTIFY_REDIRECT_URL = web;
 export const SPOTIFY_CLIENT_ID = "6185fd56fb0c47fcb3da5ed934519153";
